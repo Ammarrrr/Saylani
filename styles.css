@@ -1,0 +1,572 @@
+body {
+    /* background-color: green; */
+    margin: 0px;
+}
+
+.header-wrapper {
+    text-align: center;
+}
+
+#topbar-wrapper-custom {
+    vertical-align: middle;
+    background-color: #316DC3;
+    text-align: center;
+    
+}
+
+#icon-wrapper-custom {
+    display: inline-block;
+}
+ .icon-top-bar-custom {
+     width: 15px;
+     vertical-align: middle;
+     display: inline-block;
+     fill: white;
+     padding: 8px;
+
+    }
+
+.icon-top-bar-custom:hover {
+        background-color: #427EC6;
+       }
+
+ #topbar-text-wrapper {
+    display: inline-block;
+    margin-right: 150px;
+    margin-left: 150px;
+ }
+
+ #topbar-text {
+     color: white;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+ }
+
+ #topbar-button-wrapper {
+    display: inline-block;
+ }
+
+.btn-topbar {
+    display: inline-block;
+    border: 1px solid black;
+    color: green;
+    background-color: white;
+    padding: 6px 8px 6px 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+}
+
+#nav-bar-wrapper {
+    vertical-align: middle;
+    background-color: #F7F8FA;
+    text-align: center;
+
+}
+
+#nav-bar-img-wrapper {
+    display: inline-block;
+    margin-right: 250px;
+}
+
+#saylani-logo-nav-bar {
+    width: 220px;
+    vertical-align: middle;
+    padding: 10px 0px 10px 0px;
+
+}
+
+#menu-bar-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* dropdown styling --- start*/
+    
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #F7F8FA;
+    color: black;
+    z-index: 1;
+
+  }
+  
+  ul li {
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #F7F8FA;
+    color: black;
+    font-size: 12px;
+  }
+
+
+  .dropdown-component {
+    text-decoration: none;
+    margin: 10px;
+    background-color: none;
+}
+
+  
+  /* This hides the dropdowns */
+  
+  
+  li ul { display: none; }
+  
+  .main-nav-bar-components {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .main-nav-bar-components:hover {
+      background-color: #316DC3;
+      color: white;
+
+    }
+  
+  /* Display the dropdown */
+  
+  
+  li:hover > ul {
+    display: block;
+    position: absolute;
+  }
+  
+  li:hover li {
+      float: none;
+      text-align: left;
+      width: 150px;
+      padding: 7px 25px 7px 25px;
+      color: #666;
+      font-weight: 600;
+      /* text-decoration: none; */
+}
+  
+  li:hover a {
+      text-decoration: none;
+      color: #666;
+      font-family: 'Open Sans', sans-serif;
+
+}
+  
+  li:hover li:hover {
+      background-color: #316DC3;
+      
+      
+}
+
+li:hover li:hover > ul li {
+  width: 220px;
+}
+
+
+li:hover  li:hover > a {
+    color: white;
+
+
+}
+  
+  .main-navigation li ul li {
+      border-top: 0;
+}
+  
+  /* Displays second level dropdowns to the right of the first level dropdown */
+  
+  
+  ul ul ul {
+    left: 100%;
+    top: 0;
+  }
+  
+  /* Simple clearfix */
+  
+  
+  
+  ul:before,
+  ul:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+  
+  ul:after { clear: both; }
+
+
+  /* dropdown styling --- end*/
+
+
+.main-wrapper {
+    text-align: center;
+
+}
+
+#marquee-wrapper {
+
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+#top-marquee {
+  background-color: #316DC3;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 1200px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+#intro-wrapper {
+  text-align: center;
+  /* background-color: yellow;
+  z-index: 1; */
+}
+
+#content-wrapper {
+  /* background-color: violet; */
+  width: 1200px;
+  display: inline-block;
+}
+
+#intro-title {
+
+  font-family: 'Merriweather', serif;
+  font-size: 43px;
+}
+
+#intro-content {
+  text-align: justify;
+  color: #666666;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.9;
+}
+
+#numbers {
+  background-color: #316DC3;
+}
+
+.img-counter {
+
+  width: 40px;
+}
+
+#counter-wrapper {
+  margin-top: 40px;
+  text-align: center;
+  background-color: #2755E9;
+}
+
+.counter-items {
+  display: inline-block;
+  text-align: center;
+  margin: 40px;
+}
+
+.counter-title {
+  font-size: 33px;
+  font-family: 'Merriweather', serif;
+  color: white;
+  margin: 5px;
+}
+
+.counter-content {
+  font-family: 'Merriweather', serif;
+    color: white;
+    
+}
+
+#services-main-wrapper{
+  text-align: center;
+  background-color: #F7F8FA;
+  padding-bottom: 50px;
+}
+
+#services-title {
+
+  font-family: 'Merriweather', serif;
+  font-size: 43px;
+  margin: 1px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#services-favicon {
+  width: 40px;
+}
+
+.card {
+  padding-top: 25px;
+  padding-bottom: 5px;
+  width: 350px;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+  display: inline-block;
+  margin: 20px;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.card-content {
+  font-size: 22px;
+  color: #2755E9;
+}
+
+#mission-main-wrapper{
+  text-align: center;
+}
+
+#mission-title {
+
+  font-family: 'Merriweather', serif;
+  font-size: 33px;
+  
+}
+
+.mission-card {
+  background-color: #F7F8FA;
+  padding: 25px;
+  width: 300px;
+  display: inline-block;
+  margin: 20px 20px 0px 0px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.mission-card-content {
+  font-size: 20px;
+  color: #2755E9;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1px;
+}
+
+.mission-card-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#mission-wrapper {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+#news-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#news-marquee {
+  width: 250px;
+  height: 225px;
+  margin-bottom: 165px;
+  line-height: 1.7;
+  color: #666666;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#mission-title-wrapper {
+  text-align: left;
+}
+
+.row-mission-wrapper {
+  text-align: left;
+}
+
+#news-marquees-title {
+
+  font-family: 'Merriweather', serif;
+  font-size: 33px;
+  margin-top: 20px;
+}
+
+#gallery-wrapper {
+  text-align: center;
+  background-color: #F7F8FA;
+  padding-bottom: 35px;
+  
+}
+
+#gallery-title {
+  color: #427900;
+  font-size: 32px;
+  font-family: 'Merriweather', serif;
+  margin-top: -100px;
+  padding-top: 50px;
+
+}
+
+.gallery-img {
+  width: 200px;
+  
+}
+
+#gallery-img-wrapper {
+   margin-top: 20px;
+}
+
+#main-footer-wrapper {
+  background-color: #25272E;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#footer-address {
+  display: inline-block;
+  /* background-color: white; */
+  vertical-align: top;
+  text-align: left;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+#useful-link {
+  display: inline-block;
+  /* background-color: white; */
+  vertical-align: top;
+  text-align: left;
+  box-sizing: border-box;
+  margin-left: 210px;
+  margin-right: 210px;
+}
+
+#footer-connect {
+  display: inline-block;
+  /* background-color: white; */
+  vertical-align: top;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.footer-address-content {
+  line-height: 1.7;
+    color: #AAAAAB;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#useful-link-title {
+  color: white;
+}
+
+#connect-title {
+  color: white;
+}
+
+.img-address {
+  width: 12px;
+  /* vertical-align: middle; */
+  margin-right: 5px;
+}
+
+.img-social-footer {
+  width: 32px;
+  vertical-align: middle;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+#bottom-footer-wrapper {
+  background-color: #316DD9;
+  /* text-align: center; */
+}
+
+#bottom-footer-content-left {
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  margin-left: 200px;
+}
+
+#bottom-footer-content-right {
+  display: inline-block;
+  color: white;
+  
+}
+
+#img-bottom-footer {
+  width: 15px;
+  vertical-align: middle;
+}
+
+
+/* slider start */
+
+{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* slider end  */
